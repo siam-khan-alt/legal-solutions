@@ -9,24 +9,25 @@
       crossorigin="anonymous"
     ></script>
     <title>Legal Solutions</title>
+    <link rel="stylesheet" href="./tailwind.css">
   </head>
-  <body>
+  <body class="font-poppins">
     <header>
-      <nav class="flex justify-between mx-auto max-w-6xl">
+      <nav class="flex justify-between mx-auto max-w-6xl mt-[50px] mb-[50px]">
         <div class="bg-white">
           <div><img src="images/logo2.png" alt="" class="" /></div>
         </div>
         <div>
           <ul class="flex gap-2">
             <li><a href="">Home</a></li>
-            <li><a href="">Services</a></li>
-            <li><a href="">Cases</a></li>
-            <li><a href="">Blog</a></li>
-            <li><a href="">Contact Us</a></li>
+            <li><a href="">Services <i class="fa-solid fa-chevron-right"></i></a></li>
+            <li><a href="">Cases <i class="fa-solid fa-chevron-right"></i></a></li>
+            <li><a href="">Blog <i class="fa-solid fa-chevron-right"></i></a></li>
+            <li><a href="">Contact Us <i class="fa-solid fa-chevron-right"></i></a></li>
           </ul>
         </div>
         <div>
-          <button>Free Consultation</button>
+          <button class="bg-[#B68C5A] p-[19px] rounded-[8px] text-[18px] font-semibold ">Free Consultation</button>
         </div>
       </nav>
     </header>
@@ -34,10 +35,10 @@
       <section
         class="bg-[url(images/banner.png)] bg-auto text-white text-center pt-[104px] pl-[239px] pr-[239px] pb-[104px]"
       >
-        <h1 class="text-7xl font-extrabold">
+        <h1 class="text-7xl font-extrabold font-eb">
           We Provide Effective <br />Legal Solutions
         </h1>
-        <p class="mt-[24px] mb-[32px]">
+        <p class="mt-[24px] mb-[32px] text-[#E7E7E7]">
           There are many variations of passages of Lorem Ipsum available, but
           the majority <br />
           have suffered alteration in some form, by injected humour.
@@ -55,9 +56,9 @@
           </button>
         </div>
       </section>
-      <section class="mt-[120px]">
+      <section class="mt-[120px] text-[#707070]">
         <div class="grid grid-cols-1 justify-center items-center text-center">
-          <h1 class="text-[40px] font-extrabold">The Legal Practice Area</h1>
+          <h1 class="text-[40px] font-extrabold font-eb text-[#414040]">The Legal Practice Area</h1>
           <p class="mt-[24px] mb-[64px]">
             There are many variations of passages of Lorem Ipsum available, but
             the majority have <br> suffered alteration in some form, by injected
@@ -66,10 +67,10 @@
         </div>
         <div class="grid grid-cols-3 gap-0 w-[1170px] h-[998px] bg-white shadow-2xs m-auto">
           <div
-            class="flex flex-col items-center justify-center w-full h-full pl-[71px] pr-[72px]"
+            class="flex flex-col items-center justify-center w-full h-full pl-[71px] pr-[72px] border-b-[1px] border-r-[1px] border-[#CFCFCF]"
           >
             <img src="images/business.png" alt="" />
-            <h3 class="mt-[32px] mb-[24px] text-[32px] font-extrabold">Business Law</h3>
+            <h3 class="mt-[32px] mb-[24px] text-[32px] font-extrabold font-eb text-[#414040]">Business Law</h3>
             <p>
               There are many variations of passages of Lorem Ipsum available,
               but the majo rity have suffered alteration in some form, by
@@ -78,10 +79,10 @@
             <div class="mt-[32px] text-[#B68C5A]"><i class="fa-solid fa-circle-right"></i></div>
           </div>
           <div
-            class="flex flex-col items-center justify-center w-full h-full pl-[71px] pr-[72px] bg-[#E7E7E7]"
+            class="flex flex-col items-center justify-center w-full h-full pl-[71px] pr-[72px] bg-[#E7E7E7] border-b-[1px] border-r-[1px] border-[#CFCFCF]"
           >
             <img src="images/criminal.png" alt="" />
-            <h3 class="mt-[32px] mb-[24px] text-[32px] font-extrabold">Criminal Law</h3>
+            <h3 class="mt-[32px] mb-[24px] text-[32px] font-extrabold font-eb text-[#414040]">Criminal Law</h3>
             <p>
               There are many variations of passages of Lorem Ipsum available,
               but the majority have suffered alteration in some form, by
@@ -90,10 +91,10 @@
             <div class="mt-[32px] text-[#B68C5A]"><i class="fa-solid fa-circle-right"></i></div>
           </div>
           <div
-            class="flex flex-col items-center justify-center w-full h-full pl-[71px] pr-[72px] "
+            class="flex flex-col items-center justify-center w-full h-full pl-[71px] pr-[72px] border-b-[1px] border-[#CFCFCF] "
           >
             <img src="images/child.png" alt="" />
-            <h3 class="mt-[32px] mb-[24px] text-[32px] font-extrabold">Child Support</h3>
+            <h3 class="mt-[32px] mb-[24px] text-[32px] font-extrabold font-eb text-[#414040]">Child Support</h3>
             <p>
               There are many variations of passages of Lorem Ipsum available,
               but the majority have suffered alteration in some form, by
@@ -101,9 +102,9 @@
             </p>
             <div class="mt-[32px] text-[#B68C5A]"><i class="fa-solid fa-circle-right"></i></div>
           </div>
-          <div class="flex flex-col items-center justify-center w-full h-full pl-[71px] pr-[72px] ">
+          <div class="flex flex-col items-center justify-center w-full h-full pl-[71px] pr-[72px] border-r-[1px] border-[#CFCFCF]">
             <img src="images/education.png" alt="" />
-            <h3 class="mt-[32px] mb-[24px] text-[32px] font-extrabold">Education Law</h3>
+            <h3 class="mt-[32px] mb-[24px] text-[32px] font-extrabold font-eb text-[#414040]">Education Law</h3>
             <p>
               There are many variations of passages of Lorem Ipsum available,
               but the majority have suffered alteration in some form, by
@@ -112,10 +113,10 @@
             <div class="mt-[32px] text-[#B68C5A]"><i class="fa-solid fa-circle-right"></i></div>
           </div>
           <div
-            class="flex flex-col items-center justify-center w-full h-full pl-[71px] pr-[72px]"
+            class="flex flex-col items-center justify-center w-full h-full pl-[71px] pr-[72px] border-r-[1px] border-[#CFCFCF]""
           >
             <img src="images/divorce.png" alt="" />
-            <h3 class="mt-[32px] mb-[24px] text-[32px] font-extrabold">Divorce Law</h3>
+            <h3 class="mt-[32px] mb-[24px] text-[32px] font-extrabold font-eb text-[#414040]">Divorce Law</h3>
             <p>
               There are many variations of passages of Lorem Ipsum available,
               but the majority have suffered alteration in some form, by
@@ -127,7 +128,7 @@
             class="flex flex-col items-center justify-center w-full h-full pl-[71px] pr-[72px] "
           >
             <img src="images/tax.png" alt="" />
-            <h3 class="mt-[32px] mb-[24px] text-[32px] font-extrabold">Tax Law</h3>
+            <h3 class="mt-[32px] mb-[24px] text-[32px] font-extrabold font-eb text-[#414040]">Tax Law</h3>
             <p>
               There are many variations of passages of Lorem Ipsum available,
               but the majority have suffered alteration in some form, by
@@ -137,48 +138,48 @@
           </div>
         </div>
       </section>
-      <section>
+      <section class="text-[#707070]">
         <div class="grid grid-col justify-center items-center text-center">
-          <h3 class="text-[40px] font-extrabold">What Our Client Say</h3>
+          <h3 class="text-[40px] font-extrabold mt-[120px] font-eb text-[#414040]">What Our Client Say</h3>
           <p class="mt-[24px] mb-[64px]">There are many variations of passages of Lorem Ipsum available, but the majority have <br> suffered alteration in some form, by injected humour.</p>
         </div>
-        <div class="bg-[url(images/banner.png)] bg-auto flex justify-center items-center text-center text-white pl-[50px] pr-[50px] pt-[96px] pb-[96px] m-auto w-[1170px] h-[500px]">
+        <div class="bg-[url(images/banner.png)] bg-auto flex justify-center items-center text-center  text-white pl-[50px] pr-[50px] pt-[96px] pb-[96px] m-auto w-[1170px] h-[500px]">
           <div><i class="fa-solid fa-angle-left"></i></div>
-          <div class="pl-[135px] pr-[135px]"><img src="" alt="">
-          <h5 class="text-[32px] font-extrabold">Awlad Hossain</h5>
+          <div class="pl-[135px] pr-[135px]"><img src="../images/md.png" alt="" class="mx-auto">
+          <h5 class="text-[32px] font-extrabold font-eb text-white">Awlad Hossain</h5>
           <h6>UIX Designer</h6>
           <p class="mt-[32px] mb-[40px]">Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin <br> literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney <br> College in Virginia, looked up one of the more obscure Latin words, consectetur.</p></div>
           <div><i class="fa-solid fa-chevron-right"></i></div>
         </div>
       </section>
-      <section>
+      <section class="text-[#707070]">
         <div class="grid justify-center items-center text-center">
-          <h3 class="text-[40px] font-extrabold mt-[120px]">Frequently Asked Any Questions</h3>
+          <h3 class="text-[40px] font-extrabold mt-[120px] font-eb text-[#414040]">Frequently Asked Any Questions</h3>
           <p class="mt-[24px] mb-[64px]">There are many variations of passages of Lorem Ipsum available, but the majority have <br> suffered alteration in some form, by injected humour.</p>
         </div >
         <div class="flex m-auto justify-center items-center gap-[30px]">
           <div class="grid gap-[30px]">
            <div class="rounded-[8px] bg-[#F3F3F3] p-[32px]">
-            <div class="flex gap-[68px] "><ol>
+            <div class="flex gap-[68px] font-eb text-[#414040] text-[24px] font-extrabold "><ol>
               <li>Are application fee waivers available?</li>
             </ol>
             <p>-</p>
            </div>
            <p>There are many variations of passages of Lorem Ipsum <br> available, but the majority have suffered alteration in some <br> form, by injected humour, . </p>
            </div>
-           <div class="flex gap-[68px] rounded-[8px] bg-[#F3F3F3] pt-[35px] pr-[32px] pb-[34px] pl-[32px]">
+           <div class="flex gap-[68px] rounded-[8px] bg-[#F3F3F3] pt-[35px] pr-[32px] pb-[34px] pl-[32px] font-eb text-[#414040] text-[24px] font-extrabold">
             <ol>
               <li>Are application fee waivers available?</li>
             </ol>
             <p>+</p>
            </div>
-           <div class="flex gap-[68px] rounded-[8px] bg-[#F3F3F3] pt-[35px] pr-[32px] pb-[34px] pl-[32px]">
+           <div class="flex gap-[68px] rounded-[8px] bg-[#F3F3F3] pt-[35px] pr-[32px] pb-[34px] pl-[32px] font-eb text-[24px] font-extrabold text-[#414040]">
             <ol>
               <li>Are application fee waivers available?</li>
             </ol>
             <p>+</p>
            </div>
-           <div class="flex gap-[68px] rounded-[8px] bg-[#F3F3F3] pt-[35px] pr-[32px] pb-[34px] pl-[32px]">
+           <div class="flex gap-[68px] rounded-[8px] bg-[#F3F3F3] pt-[35px] pr-[32px] pb-[34px] pl-[32px] font-eb text-[24px] font-extrabold text-[#414040]">
             <ol>
               <li>Are application fee waivers available?</li>
             </ol>
@@ -188,38 +189,38 @@
           <div><img src="../images/faq.png" alt=""></div>
         </div>
       </section>
-      <section class=" ">
+      <section class="text-[#707070] ">
          <div class="grid justify-center items-center text-center">
-          <h3 class="text-[40px] font-extrabold mt-[120px]">Contact With Us</h3>
+          <h3 class="text-[40px] font-extrabold mt-[120px] font-eb text-[#414040]">Contact With Us</h3>
           <p class="mt-[24px] mb-[64px]">There are many variations of passages of Lorem Ipsum available, but the majority have <br> suffered alteration in some form, by injected humour.</p>
         </div >
         <div class="flex m-auto gap-[30px] justify-center items-center text-center w-[1170px] h-[570px]">
            <div class="grid grid-cols-2 gap-0 bg-white shadow-2xs m-auto">
-             <div class="flex flex-col items-center justify-center w-[285px] h-[285px] pl-[61px] pr-[61px] pt-[56px] pb-[61] bg-[#F3F3F3]">
+             <div class="flex flex-col items-center justify-center w-[285px] h-[285px] pl-[61px] pr-[61px] pt-[56px] pb-[61] bg-[#F3F3F3] border-r-[1px] border-b-[1px] border-[#CFCFCF]">
             <img src="images/location.png" alt="" />
-            <h3 class="mt-[16px] mb-[16px] text-[24px] font-extrabold">Address</h3>
+            <h3 class="mt-[16px] mb-[16px] text-[24px] font-extrabold font-eb text-[#414040]">Address</h3>
             <p>
               A108 Adam Street, <br> New York, NY 535022
             </p>
           </div>
-          <div class="flex flex-col items-center justify-center w-[285px] h-[285px]  pl-[61px] pr-[61px] pt-[56px] pb-[61] bg-[#F3F3F3]">
+          <div class="flex flex-col items-center justify-center w-[285px] h-[285px]  pl-[61px] pr-[61px] pt-[56px] pb-[61] bg-[#F3F3F3] border-b-[1px] border-[#CFCFCF]">
             <img src="images/call.png" alt="" />
-            <h3 class="mt-[16px] mb-[16px] text-[24px] font-extrabold">Call Us</h3>
+            <h3 class="mt-[16px] mb-[16px] text-[24px] font-extrabold font-eb text-[#414040]">Call Us</h3>
             <p>
              +88 01750 00 00 00 <br>+88 01750 00 00 00
             </p>
           </div>
           
-          <div class="flex flex-col items-center justify-center w-[285px] h-[285px]  pl-[61px] pr-[61px] pt-[56px] pb-[61] bg-[#F3F3F3]">
+          <div class="flex flex-col items-center justify-center w-[285px] h-[285px]  pl-[61px] pr-[61px] pt-[56px] pb-[61] bg-[#F3F3F3] border-r-[1px] border-[#CFCFCF]">
             <img src="images/email.png" alt="" />
-            <h3 class="mt-[16px] mb-[16px] text-[24px] font-extrabold">Email Us</h3>
+            <h3 class="mt-[16px] mb-[16px] text-[24px] font-extrabold font-eb text-[#414040]">Email Us</h3>
             <p>
               info@gmail.com <br>info@gmail.com
             </p>
           </div>
           <div class="flex flex-col items-center justify-center w-[285px] h-[285px]  pl-[61px] pr-[61px] pt-[56px] pb-[61] bg-[#F3F3F3]">
             <img src="images/time.png" alt="" />
-            <h3 class="mt-[16px] mb-[16px] text-[24px] font-extrabold">Working Hours</h3>
+            <h3 class="mt-[16px] mb-[16px] text-[24px] font-extrabold font-eb text-[#414040]">Working Hours</h3>
             <p>
               Mon-Fri: 9AM to 5PM <br>Sunday: 9AM to 1 PM
             </p>
@@ -236,25 +237,25 @@
       </section>
     </main>
     <footer>
-      <div class="grid grid-cols-4 justify-center bg-[#111111] text-white pt-[123px] pl-[361px] pr-[390px] pb-[101px] ">
+      <div class="grid grid-cols-4 justify-center bg-[#111111] text-white pt-[123px] pb-[101px] gap-[88px]  pl-[200px] pr-[200px] mt-[117px] ">
         <div>
-          <img src="../images/logo.png" alt="">
-            <p>There are many variations of <br> passages of Lorem Ipsum <br> available, but the majority have <br> suffered alteration in some <br> form, by injected humour.</p>
+          <img src="../images/logo.png" alt="" class="mb-[32px]">
+            <p>There are many variations of passages of Lorem Ipsum  available, but the majority have suffered alteration in some form, by injected humour.</p>
           </img>
         </div>
         <div>
-          <h4 class="text-[24px] font-extrabold">Usefull <br> Link</h4>
-          <p>Homes <br>About Us <br>Cases <br> Blog <br>Contact Us</p>
+          <h4 class="text-[24px] font-extrabold mb-[47px] font-eb ">Usefull Link</h4>
+          <p>Homes <br>About Us <br>Cases <br> Blog <br>Contact <br>Us</p>
         </div>
         <div>
-          <h4 class="text-[24px] font-extrabold">Contact Now</h4>
+          <h4 class="text-[24px] font-extrabold mb-[47px] font-eb ">Contact Now</h4>
           <p>555 4th 5t NW, Washington <br>DC 20530, United States</p>
-          <p>+88 01750 000 000 <br>+88 01750 000 000</p>
+          <p class="mb-[16px] mt-[16px]">+88 01750 000 000 <br>+88 01750 000 000</p>
           <p>info@gmail.com <br>info@gmail.com</p>
         </div>
         <div>
-          <h4 class="text-[24px] font-extrabold">Subscribe</h4>
-          <p>Subscribe for our latest & <br>Articles. We Won't Give You <br> Spam Mails</p>
+          <h4 class="text-[24px] font-extrabold mb-[47px] font-eb">Subscribe</h4>
+          <p class=" mb-[24px]">Subscribe for our latest & <br>Articles. We Won't Give You <br> Spam Mails</p>
           <div class="flex "><input type="email" name="" id="" placeholder="Email Address" class="bg-[#FFFFFF] text-[#A0A0A0] pt-[23px] pb-[23px] pl-[33px] rounded-bl-[8px] rounded-tl-[8px] "><button class="bg-[#B68C5A] p-[19px] rounded-br-[8px] rounded-tr-[8px] "><i class="fa-solid fa-paper-plane "></i></button></div>
         </div>
       </div>
